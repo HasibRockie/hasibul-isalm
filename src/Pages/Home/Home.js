@@ -15,9 +15,11 @@ const Home = () => {
           </h1>
           <h3>Full Stack Web Developer </h3>
           <div className="social">
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-github"></i>
-            <i className="fab fa-facebook-f"></i>
+            <a href="https://www.linkedin.com/in/hasib009/"><i className="fab fa-linkedin"></i></a>
+            <a href="https://github.com/HasibRockie"><i className="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/lnqiseH/"><i className="fab fa-facebook-f"></i></a>
+            
+            
           </div>
         </div>
         <div className="cover-image-container">
