@@ -1,0 +1,115 @@
+.inner img {
+  width: 100%;
+  box-shadow: 0 0 10px gray;
+  border: 0.5px solid rgb(128, 128, 128);
+  border-radius: 3px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #f9f9f9;
+  background: url("./bg.png");
+  background-size: cover;
+  border-top: 2px solid rgb(165, 165, 165);
+  border-bottom: 2px solid rgb(165, 165, 165);
+}
+
+.inner {
+  padding: 20px 80px;
+}
+
+.image-container {
+  padding: 10px 10px 10px 150px;
+}
+
+.about-details {
+  margin-top: 40px;
+  text-align: left;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-details h2 {
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+.about-details p {
+  padding-right: 30px;
+}
+
+.about-desc {
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+
+.about-desc span {
+  font-weight: 800;
+}
+
+.resume {
+  text-transform: none;
+  text-decoration: none;
+  color: black;
+  margin-top: 30px;
+  padding: 8px 30px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid black;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 300ms;
+}
+
+.resume:hover {
+  background-color: black;
+  color: white;
+  transition: 300ms;
+}
+
+
+@media screen and (max-width: 900px){
+    .about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 80px;
+        padding-bottom: 40px;
+        background-color: #f9f9f9;
+        background: url("./bg.png");
+        background-size: cover;
+        border-top: 2px solid rgb(165, 165, 165);
+        border-bottom: 2px solid rgb(165, 165, 165);
+      }
+
+      
+.inner {
+    padding: 20px 40px;
+  }
+  
+  .image-container {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .about-details h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .about-details {
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+}
