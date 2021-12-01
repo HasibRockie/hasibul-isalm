@@ -32,6 +32,15 @@
     cursor: pointer;
 }
 
+.success{
+    display: inline-block;
+    background-color: rgba(62, 80, 34, 0.726);
+    color: white;
+    margin:20px auto;
+    padding: 10px 120px;
+    border-radius: 7px;
+}
+
 @media screen and (max-width: 900px){
     .contact{
         background: url('./contact.png');

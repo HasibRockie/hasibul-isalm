@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import hasib from "./dark.jpeg";
+import hasib from "./dark.webp";
 
 const About = () => {
   return (

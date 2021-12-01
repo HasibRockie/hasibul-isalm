@@ -11,7 +11,7 @@
   padding-top: 80px;
   padding-bottom: 70px;
   background-color: #f9f9f9;
-  background: url("./bg.png");
+  background: url("./bg.webp");
   background-size: cover;
   border-top: 2px solid rgb(165, 165, 165);
   border-bottom: 2px solid rgb(165, 165, 165);
@@ -81,7 +81,7 @@
         padding-top: 80px;
         padding-bottom: 40px;
         background-color: #f9f9f9;
-        background: url("./bg.png");
+        background: url("./bg.webp");
         background-size: cover;
         border-top: 2px solid rgb(165, 165, 165);
         border-bottom: 2px solid rgb(165, 165, 165);

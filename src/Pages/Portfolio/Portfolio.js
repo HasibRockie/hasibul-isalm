@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import houseplant from "./houseplant.jpeg";
-import tour from "./tourde.jpeg";
-import healthCare from "./healthcare.jpeg";
-import science from "./sciencehacks.jpeg";
-import heaven from "./heaven.jpeg";
-import foodie from "./onion.jpeg";
+import houseplant from "./houseplant.webp";
+import tour from "./tourde.webp";
+import healthCare from "./healthcare.webp";
+import science from "./sciencehacks.webp";
+import heaven from "./heaven.webp";
+import foodie from "./onion.webp";
 import "./Portfolio.css";
 
 const fakeDb = [
